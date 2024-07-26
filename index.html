@@ -9,14 +9,19 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Instagram</title>
+  
 </head>
 
-<body>
+<body class="varela-round-regular">
   <header class="p-3">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i> INSTAGRAM </a>
+        <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram fa-lg"></i> <b>Instagram</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,7 +38,7 @@
                   aria-expanded="false">
                   <i class="fa-solid fa-gear"></i>
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu dropdown-menu-end">
                   <li><a class="dropdown-item" href="#">Profile</a></li>
                   <li><a class="dropdown-item" href="#">Accesibility</a></li>
                   <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
@@ -49,20 +54,26 @@
   <!-- GALERIA -->
   <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+        role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+        role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i></button>
     </li>
   </ul>
   <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-      <img src="https://cdn.britannica.com/01/152301-050-1EF6EBB4/Cheetah.jpg?w=200&h=200&c=crop" class="img-thumbnail" alt="...">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtvrcnuVVzzWJ2N95zNB70w2borw_6AQ2DQ&s" class="img-thumbnail" alt="...">
+      <img src="https://cdn.britannica.com/01/152301-050-1EF6EBB4/Cheetah.jpg?w=200&h=200&c=crop" class="img-thumbnail"
+        alt="...">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtvrcnuVVzzWJ2N95zNB70w2borw_6AQ2DQ&s"
+        class="img-thumbnail" alt="...">
       <img src="https://itsasnet.com/wp-content/uploads/2013/10/ahatetxoak-200x200.jpg" class="img-thumbnail" alt="...">
-      <img src="https://cdn.britannica.com/01/152301-050-1EF6EBB4/Cheetah.jpg?w=200&h=200&c=crop" class="img-thumbnail" alt="...">
+      <img src="https://cdn.britannica.com/01/152301-050-1EF6EBB4/Cheetah.jpg?w=200&h=200&c=crop" class="img-thumbnail"
+        alt="...">
     </div>
-    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">CARDS</div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">CARDS
+    </div>
   </div>
 
 
